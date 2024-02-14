@@ -7,6 +7,7 @@ const renderer = new THREE.WebGL1Renderer()
 const camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,100)
 const scene = new THREE.Scene()
 const meshes = {} 
+const lights = {}
 const clock = new THREE.Clock()
 
 

@@ -8,7 +8,7 @@ export const jumpbox1 = () =>{
     const color = loader.load('textures/box_color.jpg')
 
     const jumpGeometry = new BoxGeometry(15,0.1,15)
-    const jumpMaterial = new MeshPhongMaterial({ 
+    const jumpMaterial = new MeshPhysicalMaterial({ 
         map:color,
         roughness:0,
         metalness:0,
